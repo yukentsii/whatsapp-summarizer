@@ -167,3 +167,7 @@ This is a personal project, not affiliated with WhatsApp or Meta. It uses
 clients may violate WhatsApp's Terms of Service and could get an account restricted; use it only with
 your own account and at your own risk. The same applies to any third-party AI gateway you route
 requests through. Your messages are sent to the AI provider you configure, so choose one you trust.
+
+## License
+
+[MIT](LICENSE)
