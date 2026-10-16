@@ -1,0 +1,13 @@
+services:
+  whatsapp-summarize:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATA_DIR: /app/data
+    volumes:
+      # SQLite database and WhatsApp auth state; keep this to avoid re-pairing.
+      - ./data:/app/data
+    ports:
+      # Bound to localhost; put your HTTPS reverse proxy in front of it.
+      - "127.0.0.1:3000:3000"

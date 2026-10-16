@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.gradle/
+.kotlin/
+
+# Local config and secrets
+.env
+local.properties
+
+# Server data (messages, WhatsApp auth, backups)
+/server/data/
+
+# IDE
+.idea/
+*.iml
+.vscode/
